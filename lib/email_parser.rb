@@ -1,5 +1,6 @@
 class EmailParser
-  def intialize()
+  def intialize(CSV emails)
+    @CSV_emails = CSV_emails
   end 
 end 
 # Build a class EmailParser that accepts a string of unformatted 
