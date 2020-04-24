@@ -3,8 +3,8 @@ class EmailParser
   def intialize(emails)
     @email = emails 
   end 
-  def email 
-    @email 
+  def parse 
+    @email
   end 
 end 
 # Build a class EmailParser that accepts a string of unformatted 
