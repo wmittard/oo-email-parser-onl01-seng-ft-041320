@@ -5,7 +5,8 @@ class EmailParser
   end 
   def parse 
    email_array = @email.split [/[' ']/].uniq
-   email_array = @email.reject! {|email| email
+   email_array = @email.reject! {|email| email.empty?}
+   email_array
   end 
 end 
 # Build a class EmailParser that accepts a string of unformatted 
