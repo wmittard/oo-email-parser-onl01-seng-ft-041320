@@ -1,17 +1,16 @@
-class EmailParser
- attr_accessor :emails
+ class EmailParser
 
-  def initialize(email)
-   @emails = email
- end
+
+  @emails
+
+  def initialize(emails)
+    @emails = emails.split(/,?\s/).uniq
+  end
 
   def parse
-   emails.delete(',').split.uniq
- end
-
-  end 
-  
-  
+    return @emails
+  end
+end
 
 # Build a class EmailParser that accepts a string of unformatted 
 # emails. The parse method on the class should separate them into
