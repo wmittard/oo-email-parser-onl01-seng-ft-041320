@@ -1,5 +1,5 @@
 class EmailParser
-  def intialize("")
+  def intialize()
   end 
 end 
 # Build a class EmailParser that accepts a string of unformatted 
