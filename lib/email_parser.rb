@@ -1,5 +1,5 @@
 class EmailParser 
-  attr_accessor :name, :csv_emails
+  attr_accessor :csv_emails
   
   def initialize(csv_emails)
 #   # you don't need name in here, it is redundant/
